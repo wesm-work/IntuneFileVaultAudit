@@ -7,14 +7,6 @@
   FileVault recovery key using Microsoft Graph getFileVaultKey (beta).
   The script does NOT export or log recovery key values—only whether the key is retrievable.
 
-.APPROVAL / CHANGE NOTES
-  Owner:        <YOUR NAME>
-  Requested by: <REQUESTOR>
-  Purpose:      Validate corporate macOS devices have FileVault key escrowed in Intune.
-  Risk:         Low (read-only, no key output).
-  Version:      1.0
-  Date:         2026-01-11
-
 .REQUIREMENTS
   - Microsoft.Graph + Microsoft.Graph.Beta PowerShell modules
   - Delegated admin sign-in with these scopes:
